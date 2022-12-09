@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="stylesheets/kontakt/style-kontakt.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="menu">
+        <!-- logo -->
+        <div class="max logo-container">
+            <a href="index.html">
+                <img src="assets/logo/lyseblå-guld.png" alt="Logo">
+            </a>
+        </div>
+        <div class="max">
+
+            <button class="menu-btn" id="menu-btn">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <ul id="menu-items">
+                <li class="selected">
+                    <a href="om.html" class="menu-item">
+                        Om
+                    </a>
+                </li>
+
+                <li>
+                    <a href="galleri.html" class="menu-item">
+                        Galleri
+                    </a>
+                </li>
+
+                <li>
+                    <a href="kontakt.html" class="menu-item">
+                        Kontakt
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="max">
+        <section class="kontakt-header">
+            <h1 class="animate__animated animate__rubberBand">
+                Kontakt Shonmpy
+            </h1>
+        </section>
+        <section class="container">
+            <article class="flex-size kontakt">
+                <h2>Shonmpy garantere en god dag sammen med jer. Der vil blive masser af latter og skør humor fra start
+                    til slut, og alle vil selvfølgelig gå hjem med deres ynglings ballondyr.</h2>
+            </article>
+            <figure class="flex-size img-kontakt">
+                <img src="assets/images/development of shonmpy/1.1.aa.png" alt="Portræt af Shonmpy" loading="lazy">
+            </figure>
+            <section class="kontakt-form flex-size">
+                <h2>Det kan jo være, at I har nogle specielle ønsker?</h2>
+                <h3>Skriv til Shonmpy</h3>
+                <p class="tekst">... så kan vi snakke om det. Vi finder en pris der passer til arrangementet.</p>
+                <form class="contact-form" novalidate name="myForm" onsubmit="return submitHandler">
+                    <div class="formInput ">
+                        <input required type="text" name="your-name" id="name" placeholder="Navn">
+                        <span class="status"></span>
+                    </div>
+                    <div class="formInput">
+                        <input required type="email" name="your-email" id="email" placeholder="Mail">
+                        <span class="status"></span>
+                    </div>
+                    <div class="formInput">
+                        <input type="datetime-local" name="date" id="datetime" placeholder="Dato for begivenheden">
+                        <span class="status"></span>
+                    </div>
+                    <div class="formInput">
+                        <textarea name="your-message" placeholder="Message" id="new-message" cols="30" rows="10"></textarea>
+                        <span class="status"></span>
+                    </div>
+                    <button class="button" type="submit">Send</button>
+                </form>
+            </section>
+        </section>
+    </div>
+
+
+    <!-- footer -->
+    <section class="footer-link">
+        <a href="index.html"><img class="logo animate__animated animate__heartBeat" src="assets/logo/gul-guld.png" alt="Logo"></a>
+        <a href="http://www.instagram.com/ballonklovnen_shonmpy/"><img class="link"
+                src="assets/icon/instagram-lilla.png" alt="Instagram"></a>
+        <a href="http://www.facebook.com/Shonmpy"><img class="link" src="assets/icon/facebook-blue.png"
+                alt="Facebook"></a>
+        <a href="http://www.youtube.com/channel/UC2a5Ug8HSGshqIUokz5bOoQ"><img class="link"
+                src="assets/icon/youtube-brun.png" alt="youtube"></a>
+    </section>
+    <footer class="page-footer">
+        <section class="footer-adress">
+            <h4>Address:</h4>
+            <h4>Phone:</h4>
+            <h4>Email:</h4>
+        </section>
+        <section class="footer-info">
+            <p> Storkøbenhavn</p>
+            <a class="info-link" href="tel:+4542800552">
+                <p>+4542800552</p>
+            </a>
+            <a class="info-link" href="mailto:jonatanhdq@gmail.com">
+                <p>send mail</p>
+            </a>
+        </section>
+    </footer>
+    <!-- slut på footer -->
+    <section class="copyright">
+        <p class="copyright-text">Shonmpy Ballonklovn © 2022. All Rights Reserved</p>
+    </section>
+
+    <script src="menu.js" defer></script>
+    <script src="contact.js" defer></script>
+</body>
+
+</html>
